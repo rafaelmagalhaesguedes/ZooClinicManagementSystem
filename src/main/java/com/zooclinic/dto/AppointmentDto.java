@@ -1,7 +1,6 @@
-package com.zooclinic.controller.dto;
+package com.zooclinic.dto;
 
 import com.zooclinic.entity.Appointment;
-import java.time.LocalDateTime;
 
 /**
  * The type Appointment dto.

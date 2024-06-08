@@ -1,15 +1,15 @@
 package com.zooclinic.controller;
 
-import com.zooclinic.controller.dto.AnimalCreationDto;
-import com.zooclinic.controller.dto.AnimalDto;
-import com.zooclinic.controller.dto.AppointmentCreationDto;
-import com.zooclinic.controller.dto.AppointmentDto;
-import com.zooclinic.controller.dto.AppointmentUpdateDto;
+import com.zooclinic.dto.AnimalCreationDto;
+import com.zooclinic.dto.AnimalDto;
+import com.zooclinic.dto.AppointmentCreationDto;
+import com.zooclinic.dto.AppointmentDto;
+import com.zooclinic.dto.AppointmentUpdateDto;
 import com.zooclinic.entity.Animal;
 import com.zooclinic.entity.Appointment;
 import com.zooclinic.service.AnimalService;
-import com.zooclinic.service.exception.AnimalNotFoundException;
-import com.zooclinic.service.exception.AppointmentNotFoundException;
+import com.zooclinic.exception.AnimalNotFoundException;
+import com.zooclinic.exception.AppointmentNotFoundException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedHashMap;

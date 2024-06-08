@@ -1,4 +1,4 @@
-package com.zooclinic.service.exception;
+package com.zooclinic.exception;
 
 /**
  * The type Appointment not found exception.

@@ -1,6 +1,6 @@
 package com.zooclinic.advice;
 
-import com.zooclinic.service.exception.NotFoundException;
+import com.zooclinic.exception.NotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;

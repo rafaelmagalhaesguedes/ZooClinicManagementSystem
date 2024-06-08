@@ -2,10 +2,10 @@ package com.zooclinic.service;
 
 import com.zooclinic.entity.Animal;
 import com.zooclinic.repository.AppointmentRepository;
-import com.zooclinic.service.exception.AnimalNotFoundException;
+import com.zooclinic.exception.AnimalNotFoundException;
 import com.zooclinic.entity.Appointment;
 import com.zooclinic.repository.AnimalRepository;
-import com.zooclinic.service.exception.AppointmentNotFoundException;
+import com.zooclinic.exception.AppointmentNotFoundException;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;

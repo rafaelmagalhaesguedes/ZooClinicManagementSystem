@@ -1,4 +1,4 @@
-package com.zooclinic.controller.dto;
+package com.zooclinic.dto;
 
 import com.zooclinic.entity.Animal;
 
