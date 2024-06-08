@@ -1,5 +1,6 @@
 package com.zooclinic.controller.dto;
 
+import com.zooclinic.entity.Animal;
 import com.zooclinic.entity.Appointment;
 
 public record AppointmentWithAnimalDto(
@@ -14,11 +15,12 @@ public record AppointmentWithAnimalDto(
     Integer age
 ) {
   public static AppointmentWithAnimalDto fromEntity(Appointment appointment) {
-    Long animalId = appointment.getAnimal() != null ? appointment.getAnimal().getId() : null;
-    String animalName = appointment.getAnimal() != null ? appointment.getAnimal().getName() : null;
-    String breed = appointment.getAnimal() != null ? appointment.getAnimal().getBreed() : null;
-    String specie = appointment.getAnimal() != null ? appointment.getAnimal().getSpecie() : null;
-    Integer age = appointment.getAnimal() != null ? appointment.getAnimal().getAge() : null;
+    Animal animal = appointment.getAnimal();
+    Long animalId = animal != null ? animal.getId() : null;
+    String animalName = animal != null ? animal.getName() : null;
+    String breed = animal != null ? animal.getBreed() : null;
+    String specie = animal != null ? animal.getSpecie() : null;
+    Integer age = animal != null ? animal.getAge() : null;
 
     return new AppointmentWithAnimalDto(
         appointment.getId(),

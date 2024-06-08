@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.zoonoses</groupId>
-	<artifactId>zoonoses</artifactId>
+	<artifactId>zooclinic</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>zoonoses</name>
 	<description>Aplicativo para gerenciamento de consultas na Zoonoses.</description>

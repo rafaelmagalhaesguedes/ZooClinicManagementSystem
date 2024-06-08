@@ -2,6 +2,9 @@ package com.zooclinic.controller.dto;
 
 import com.zooclinic.entity.Animal;
 
+/**
+ * The type Animal dto.
+ */
 public record AnimalDto(
     Long id,
     String name,
@@ -11,6 +14,13 @@ public record AnimalDto(
     String sex,
     Double weight
 ) {
+
+  /**
+   * From entity animal dto.
+   *
+   * @param animal the animal
+   * @return the animal dto
+   */
   public static AnimalDto fromEntity(Animal animal) {
     return new AnimalDto(
         animal.getId(),
